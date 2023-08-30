@@ -8,7 +8,8 @@
 
 from random import randint
 
-n = 10
+print("enter number of bushes: ")
+n = int(input())
 ai = []
 
 for i in range(n):
@@ -33,9 +34,6 @@ for k in range(len(ai)):
             max = amount
     
     
-    print(f'center bush is {k}, sum of berries on three bushes: {amount}')
+    print(f'berries amount @bush {k+1} and next ones: {amount}')
 
 print(f'max berries amount is {max}')
-
-
-   
